@@ -1,0 +1,22 @@
+{
+  "name": "template",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vitepress dev docs",
+    "build": "vitepress build docs",
+    "serve": "vitepress serve docs"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "sass": "^1.59.3",
+    "vitepress": "1.0.0-alpha.49"
+  },
+  "dependencies": {
+    "@99_water/theme": "workspace:^0.1.12",
+    "vue": "^3.2.47"
+  }
+}

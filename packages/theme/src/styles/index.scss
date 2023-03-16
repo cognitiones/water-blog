@@ -1,0 +1,18 @@
+html{
+    --bg-gradient: 255, 255, 255, 0.1;
+    --box-shadow: 0 1px 8px 0 rgba(0, 0, 0, 0.1);
+    --box-shadow-hover: 0 2px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+html[class='dark']{
+    --bg-gradient: 20, 20, 20;
+    --box-shadow: 0 1px 8px 0 rgba(0, 0, 0, 0.6);
+    --box-shadow-hover: 0 2px 16px 0 rgba(0, 0, 0, 0.7);
+}
+
+:root {
+    --vp-home-hero-name-color: #B1DEFF;
+    --vp-c-brand: #3694d8;
+    --vp-c-brand-light: #4baaee;
+    --vp-c-brand-dark: #a0d5fa;
+}
